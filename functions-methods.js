@@ -81,11 +81,7 @@ function checkEmailValidity(emailaddress) {
     const lastIndexOfDot = emailaddress.lastIndexOf(".");
     const noDotAtLastIndex = lastIndexOfDot !== emailaddress.length - 1;
 
-    if (includesAtSign && !includesComma && noDotAtLastIndex) {
-        return true;
-    } else {
-        return false;
-    }
+    return includesAtSign && !includesComma && noDotAtLastIndex;
 }
 
 console.log(checkEmailValidity("n.eeken@novi.nl"));

@@ -83,6 +83,8 @@ let sumGrades = 0;
 
 for (let i = 0; i < grades.length; i++) {
     sumGrades = sumGrades + grades[i];
+    //korter is:
+    //sumGrades += grades [i];
 }
 
 const averageGrade = sumGrades / grades.length;
@@ -169,7 +171,7 @@ Opdracht 3b
 `);
 
 function giveHighestGrade(grades) {
-    let highestGrade = 0;
+    let highestGrade = grades[0];
 
     for (let i = 0; i < grades.length; i++) {
         if (grades[i] > highestGrade) {
