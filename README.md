@@ -37,29 +37,18 @@ The purpose of this assignment is to gain hands-on experience with **function de
 
 ## How to Run
 
-1. Clone the repository:
+1. Clone the repository or open the project in an IDE.
+2. Run a specific file by clicking the green play button or using nodemon in the terminal:
 
-```bash
-git@github.com:AnneKluytmans/novi-homework-frontend-javascript-intermediate-functions.git
-```
-or
-```bash
-git clone https://github.com/AnneKluytmans/novi-homework-frontend-javascript-intermediate-functions.git
-```
+  ```bash
+  nodemon functions-methods.js
+  ```
 
-2. Open the project in your code editor.
+  Switching files? -> Stop nodemon (`Ctrl + C`) and run a different file, for example:
 
-3. Run a specific file using nodemon in the terminal:
-
-```bash
-nodemon functions-methods.js
-```
-
-- Switching files? -> Stop nodemon (Ctrl + C) and run a different file, for example:
-
-```bash
-nodemon functions-and-scope.js
-```
+  ```bash
+  nodemon functions-and-scope.js
+  ```
 
 ## Credits
 > "This assignment was created for the NOVI Frontend Development curriculum. All exercises and instructions are part of the official coursework."
